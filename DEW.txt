@@ -26,5 +26,5 @@ git config --global user.name "murilo-Am"
 5- Clicar na setinha do botão commit (azul)
 6- Clicar em coimmit & push
 7- Na primeira vez dar as autorizações - Na segunda vez na mesma aula não precisa mais 
-8- Ver no GitHub se foi atualizado.
+8- Ver no GitHub se foi atualizado
 ---------------------Fim----------------------------------------------------------------------------------
