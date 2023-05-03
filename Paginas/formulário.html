@@ -11,12 +11,59 @@
     <form action="" method="">
         <div>
             <label for="nome_usuario">Nome:</label>    
-            <input type="text" name="nome_usuario" id="nome_usuario" size="70" maxlength="10" minlength="3">   
+            <input type="text" name="nome_usuario" id="nome_usuario" size="70" maxlength="10" 
+            minlength="3" placeholder="Digite seu nome">   
         </div>
         <br>
         <div>
+            <label for="">Hobbies</label>
+            <br>
+            <input type="checkbox" name="esporte" id="esporte">
+            <label for="esporte">Esportes</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+            <!--Bolinha texto, bolinha texto... Pensa LABEL = Texto-->
+            <!--Checkbox pode marcar qualquer tanto de opções-->
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha o tipo</label>
+            <br>
+            <input type="radio" name="tipo" id="adulto">
+            <label for="adulto">Adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">Adolescente</label>
+            <input type="radio" name="tipo" id="criança">
+            <label for="criança">Criança</label>
+            <!--Bolinha texto, bolinha texto... Pensa LABEL = Texto-->
+            <!--Radio pode marcar só uma opção-->
+        </div>
+        <br>
+        <div>
+            <label for="arquivo"></label>
+            <input type="file" name="arquivo" id="arquivo" accept="imagem/png, image/jpeg"> 
+            <!--Aceita jpeg e png, se não tiver o atributo, aceita tudo-->
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha uma opção</label>
+            <select name="opc" id="opc">
+                <option value="tsi">TSI</option>
+                <option value="tme">TME</option>
+                <option value="inf">Informática</option>
+                <option value="adm">Administração</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe Seu Recado"> </textarea>
+        </div>
+        <div>
             <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" required>
+            <input type="password" name="senha" id="senha"  placeholder="Digite sua Senha" required >
         </div>
         <br>
         <div>
@@ -28,15 +75,21 @@
         </div>
         
         
-        
+        <!--                                 DICIONÁRIO                                                                 -->
         <!--DIV agrupa elementos, em vez de usar o <br> usa DIV, agrupa tudo num elemento único, Ex, quero uma cor, não escrevo para cada linha, e sim pro "elemento único"-->
         <!--LABEL é o "rótulo" do input (a que se refere o input, como por exemplo por um texto “Nome completo” do lado.)-->
         <!--O FOR do Label é que, quando eu clico em cima do texto, ele "abre" o formulário pra escrever, com o nome da tabela do INPUT-->
         <!--Usar o INPUT:TEXT e procura o "text"  será input:text -->
-        <!--Usar o INPUT:PASSWORD e procura o "text"  será input:passaword para não exibir oq vc tá escrevendo -->
+        <!--Usar o INPUT:PASSWORD e procura o ":password"  será input:passaword para não exibir oq vc tá escrevendo -->
+        <!--Usar o INPUT:CHECKBOX e procura o ":checkbox"  será input:checkbox  Checkbox pode marcar qualquer tanto de opções -->
+        <!--Usar o INPUT:RADIO e procura o ":checkbox"  será input:radio  Radio pode marcar somente uma opção -->
+        <!--Usar o INPUT:FILE para carregar arquivos-->
+        <!--Usar o SELECT e OPTION para fazer selecionações-->
+        <!--Usar o TEXTAREA para deixar uma caixa de texto para digitar-->
         <!--o NAME/ID é uma "variavel pros bancos de dados"-->
         <!--REQUIRED exige que o campo seja preenchido-->
-        <!--Size = Tamanho e maxlenght e minlenght limita o maximo e minimo respectivamente de caracteres-->
+        <!--SIZE = Tamanho e MAXLENGHT E MINLENGHT limita o maximo e minimo respectivamente de caracteres-->
+        <!--PLACEHOLDER é o textinho em baixa opacidade dentro do campo de preenchimento-->
     </form>
 </body>
 </html>
