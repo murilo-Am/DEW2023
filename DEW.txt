@@ -15,7 +15,7 @@ Passos do GitHub
 2- Digitar os comandos:
 git config --global user.email "murilot564@gmail.com"
 git config --global user.name "murilo-Am"
-3- Fechar Terminal.
+3- Fechar Terminal
 -----------------------Fim------------------------------------------------------------------------------
 
 -----------------------Enviando Mudanças no GitHub------------------------------------------------------
