@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulário</h2> 
+    <form action="" method="">
+        <div>
+            <label for="nome_usuario">Nome:</label>    
+            <input type="text" name="nome_usuario" id="nome_usuario" size="70" maxlength="10" minlength="3">   
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+            <!-- OUTROS POSSIVEIS BOTÕES
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar"> -->
+        </div>
+        
+        
+        
+        <!--DIV agrupa elementos, em vez de usar o <br> usa DIV, agrupa tudo num elemento único, Ex, quero uma cor, não escrevo para cada linha, e sim pro "elemento único"-->
+        <!--LABEL é o "rótulo" do input (a que se refere o input, como por exemplo por um texto “Nome completo” do lado.)-->
+        <!--O FOR do Label é que, quando eu clico em cima do texto, ele "abre" o formulário pra escrever, com o nome da tabela do INPUT-->
+        <!--Usar o INPUT:TEXT e procura o "text"  será input:text -->
+        <!--Usar o INPUT:PASSWORD e procura o "text"  será input:passaword para não exibir oq vc tá escrevendo -->
+        <!--o NAME/ID é uma "variavel pros bancos de dados"-->
+        <!--REQUIRED exige que o campo seja preenchido-->
+        <!--Size = Tamanho e maxlenght e minlenght limita o maximo e minimo respectivamente de caracteres-->
+    </form>
+</body>
+</html>
