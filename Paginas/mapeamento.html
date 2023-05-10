@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeamento</title>
+</head>
+<body>
+    <header>
+        <h1>TAG Map</h1>
+    </header>
+    <main>
+    <section>
+        <p>Permite mapear uma imagem tornando áreas de imagens clicáveis</p>
+        <hr>
+        <figure>
+            <img src="../img/rs.jpg" alt="Imagens das redes sociais" usemap="#rs">
+            <figcaption>Passe o mouse sobre os icones da imagem para ir para suas páginas</figcaption>
+        </figure>
+        <map name="rs">
+        <area shape="rect" coords="2,126,164,278" href="https://www.globo.com/" alt="" target="alvo" title="Facebook">
+        <area shape="circle" coords="992,197,60" href="https://www.techtudo.com.br/" alt="" target="alvo" title="Whatsapp">
+        <area shape="poly" coords="229,149,315,196,230,246" href="https://canaltech.com.br/" alt="" target="alvo" title="Youtube">
+        </map>
+    </section> 
+    </main>
+    <iframe src="" frameborder="0" name="alvo" width="1000" height="500"></iframe>
+</body>
+<br>
+<a href="../index.html"><img src="../img/home.png" alt=""></a>
+
+<!--                             Dicionário                         -->
+<!--header = Cabeçalho, normalmente vai estar em cima, é um <div> do html:5.
+    main = Elementos que comportaram o corpo do html.
+    usemap = Vai ser direcionado para X.
+    figcaption = Legenda da imagem (aparece em baixo da imagem).
+    map name = O elemento.
+    area = A area da figura a ser selecionada. 
+    SHAPE = O formato da figura. 
+    (rect=Retangulo e só precisa de 2 pontos)
+    (circle=Precisa do ponto central e o raio para descobrir o raio).
+    (poly=Precisa de 3 ou + pontos).
+    AS COORDENADAS SE DESCOBRE EM UM EDITOR DE IMAGEM (PAINT) E ASSIM, A LOCALIZAÇÃO DOS PIXELS.
+    href = Direcione ao local X. Links
+    target = Abre a página na mesma janela/aba do navegador ou abrindo uma nova janela/aba.
+    (target_blank abre em outra aba, nesse caso só no target=alvo ele abre o elemento que nomeei o elemento alvo).
+    title = o nome que aparece hora que passa em cima da imagem.
+    iframe = é a janela que vai abrir em baixo com o conteudo, nesse caso, o site.
+    
+
+-->
+</html>
