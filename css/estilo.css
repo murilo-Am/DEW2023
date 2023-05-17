@@ -7,3 +7,11 @@ div{
 div li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 } /*Está aplicando no li dentro de uma DIV, só para os li dentro dos DIV*/
+
+h1, h2 { /*aplicando a regra CSS para mais de um seletor */
+    font-size: 50px;
+}
+
+div p strong a {
+    background-color: blue;
+} /*Exemplo de ordem de aplicação*/
