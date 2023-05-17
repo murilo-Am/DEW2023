@@ -1,0 +1,9 @@
+div{
+    background-color: Aquamarine; /*altera cor de fundo*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+} /*Ele vai aplivar isso em todos as tags DIV no meu outra pág */ 
+
+div li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+} /*Está aplicando no li dentro de uma DIV, só para os li dentro dos DIV*/
