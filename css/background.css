@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*Fazemos isso para "zerar" o CSS, margem e preenchimento (é tipo uma mini borda do texto)*/
+}
+.cor-fundo {
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+   /*Preenche todo nesse intervalo*/
+}
+.item{
+    width: 100px;
+    height: 100px;
+} /*Nessas 2 definimos o tamanho e cor, ai no html 
+declaramos as 2 na mesma pra APLICAR AS 2 AO MESMO TEMPO*/
+.item-1{background-color: red;}
+.item-2{background-color: greenyellow;}
+.item-3{background-color: darkorchid;}
