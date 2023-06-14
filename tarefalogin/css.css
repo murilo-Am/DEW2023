@@ -1,0 +1,14 @@
+#inicio{
+    color: darkred; /*Altera a cor do texto*/
+    width:10%; /*Define a largura do elemento*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Muda a fonte*/
+
+}
+#body{
+        margin: 0 auto; /*Centraliza os Elementos e tira as margens*/
+        width: 50%; /* Valor da Largura */
+        background-color: bisque; /*Altera a cor do elemento*/
+    }
+.bot{
+    font-family: 'Courier New', Courier, monospace; /*Muda a fonte*/
+}
