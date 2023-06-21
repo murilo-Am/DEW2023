@@ -1,0 +1,7 @@
+*{
+    margin: 0; /* É o mesmo de margin-top:0; margin-bottom:0; margin-left:0; margin-right:0; Que é a distacia da margem do topo, da direita...*/
+    padding: 0; /* define uma a distância entre o conteúdo de um elemento e suas bordas */
+    box-sizing: border-box; /*tamanho e espaço que ele vai ocupar (elemento e só elementos block) tipo, o elemento ele sempre vai ser
+    200px X 200px se eu quiser */
+
+}
