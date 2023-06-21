@@ -1,0 +1,16 @@
+
+.text {
+      width: 500px;
+    }
+  
+#tt {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+  position:absolute; top: 40px; left: 590px;
+}
+
+#nome{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
