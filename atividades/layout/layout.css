@@ -1,0 +1,47 @@
+/***************************HEADER*****/
+#header{
+width: 90%;
+height: 100px;
+background-color: blue;
+}
+
+#menu{
+    width: 90%;
+    height: 30px;
+    background-color: red;
+}
+
+#menu-lateral{
+    width: 30%;
+    height: 300px;
+    background-color: green
+    ;
+
+}
+#banner
+{
+    width: 70%;
+    height: 200px;
+    background-color: plum;
+}
+
+#noticias
+{
+    width: 90%;
+    height: 400px;
+    background-color: bisque;
+
+}
+#texto
+{
+    width: 40%;
+    height: 50px;
+    border: 2px solid black
+}
+
+#imagem{
+    width: 40%;
+    height: 50px;
+    border: 2px solid black
+
+}
