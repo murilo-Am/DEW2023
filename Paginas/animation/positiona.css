@@ -1,0 +1,29 @@
+
+#foto2 {
+    position: absolute; 
+    top: 50px;
+    z-index:3 ; /*especifica a ordem da pilha de um elemento.
+    Um elemento com número de ordem de empilhamento superior será exibido à frente de outro com número inferior*/
+    animation:nuvem 10s;
+
+}
+#foto3 {
+    position: absolute;
+    top: 50px;
+    z-index:1 ;
+    animation:sol 10s ;
+    
+}
+
+#foto1 {
+    z-index: 3 ;
+}
+ @keyframes nuvem
+ {
+    from {right: 0%;}
+    to {right: 100%;}
+ }
+ @keyframes sol {
+    from {right: 100%;}
+    to {right: 0%}
+ }

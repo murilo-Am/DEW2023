@@ -2,50 +2,35 @@
 #header{ width: 90%;
     height: 100px;
     background-color: blue;
-    float: left;
 }
 /********************MENU*******************/
 #menu{
     width: 90%;
     height: 30px;
     background-color:red;
-    float: left;
 }
 #menu_lateral{
     width: 30%;
     height: 500px;
     background-color: green;
-    float: left;
-    
 }
 #banner{
     width: 70%;
     height: 200px;
     background-color: burlywood;
-    float: left;
 }
 #noticias{
-    width: 70%;
+    width: 90%;
     height: 400px;
     background-color:cyan ;
-    float: left;
-    clear: both; /* impede que elementos flutuem de ambos os lados. */
 }
 #texto{
     width: 40%;
     height: 50px;
     border: 2px solid black;
-    float: left;
 }
 #imagem{
     width: 40%;
     height: 50px;
     border: 2px solid black;
-    
-}
-#rodape {
-    width: 100%; /*Se ficar sem o float, e não estar em 100% ele vai ser sobreposto e vai ser invisível */
-    height: 50px;
-    background-color: crimson;
-    float: left; /*Sem esse, o elemento ia ficar lá em cima nos primeiros elentos, ai ele desceu por causa dele */
 }
