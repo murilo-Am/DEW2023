@@ -1,0 +1,99 @@
+body{
+    margin: 150px;
+}
+
+#a1{
+    background-color: brown;
+    width:100px;
+    height:100px;
+    
+    
+    
+
+}
+#a2{
+    background-color: brown;
+    width:100px;
+    height:100px;
+    
+    
+    
+}
+
+.lado{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+    
+}
+
+.jnt{
+    display: flex; /* Define o elemento como um contêiner flexível. */
+    flex-direction: row; /* Especifica que os elementos serão dispostos em uma fila horizontal. */
+    justify-content: flex-start; /* Alinha os elementos no início da fila (à esquerda). EM LINHA*/
+
+}
+
+.jnt2 {
+    display: flex; /* Define o elemento como um contêiner flexível. */
+    flex-direction: row; /* Especifica que os elementos serão dispostos em uma fila horizontal. */
+    justify-content: flex-start; /* Alinha os elementos no início da fila (à esquerda). EM LINHA*/
+    
+}
+
+#j1{
+    background-color: brown;
+    width:200px;
+    height:100px;
+    border: 6px solid white;
+}
+#j2{
+    background-color: brown;
+    width:200px;
+    height:100px;
+    border: 6px solid white;
+    
+}
+#j3{
+    background-color: brown;
+    width:200px;
+    height:100px;
+    border: 6px solid white;
+
+}
+#j4{
+    background-color: brown;
+    width:200px;
+    height:100px;
+    border: 6px solid white;
+
+}
+
+#c1{
+    background-color: green;
+    width:100px;
+    height:100px;
+    border: 2px solid black;
+
+
+}
+#c2{
+    background-color: green;
+    width:100px;
+    height:100px;
+    border: 2px solid black;
+
+}
+
+.cima{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
